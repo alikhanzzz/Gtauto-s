@@ -1,0 +1,93 @@
+body {
+  font-family: Impact, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-image: 
+  url(https://avatars.mds.yandex.net/get-images-cbir/9636427/CqdTAhXhdWRukv50nZULnw1127/ocr);
+  width: auto;
+}
+
+div {
+  background-color: rgba(0,0,0,0.4);
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  margin-left: 35;
+  color:transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(90deg, #00BF63, #03763E);
+}
+
+
+navbar ul {
+  list-style: none;
+  display: flex;
+  color: #fff;
+  padding:0;
+  text-decoration: none;
+}
+
+navbar ul li {
+  margin-right: 15px;
+}
+
+navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+navbar ul li a:hover {
+  color: lime;
+}
+
+main {
+  padding: 100px;
+}
+
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.car-list article {
+  margin-bottom: 50px;
+  width: calc(0 - 200px);
+}
+
+.car-list article img {
+  width: 100%;
+  height: auto;
+}
+
+.car-list article h3 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.car-list article p {
+  margin: 0;
+}
+
+.car-list article a {
+  margin: 0;
+  color: #03763E;
+}
+
+section {
+	margin-bottom: 100px;
+}
+
+footer {
+	background-color: #333;
+	color: #00BF63;
+	padding: 15px;
+	text-align: center;
+}
